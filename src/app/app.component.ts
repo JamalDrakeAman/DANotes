@@ -10,7 +10,14 @@ import { AddNoteDialogComponent } from './add-note-dialog/add-note-dialog.compon
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, NoteListComponent, FooterComponent, HeaderComponent, AddNoteDialogComponent],
+  imports: [
+    CommonModule,
+    RouterOutlet,
+    NoteListComponent,
+    FooterComponent,
+    HeaderComponent,
+    AddNoteDialogComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
